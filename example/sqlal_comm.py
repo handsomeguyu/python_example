@@ -22,9 +22,9 @@ from timeit import default_timer
 
 host = 'localhost'
 port = 3306
-db = 'mysql_test'
-user = 'mysql_test'
-password = 'mysql_test'
+db = test'
+user = 'root'
+password = '479085802'
 
 
 g_mysql_url = 'mysql+pymysql://%s:%s@%s:%d/%s' % (user, password, host, port, db)

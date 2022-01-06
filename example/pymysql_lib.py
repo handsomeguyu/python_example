@@ -88,9 +88,9 @@ class DMysqlPoolConn:
 # ========== 在程序的开始初始化一个连接池
 host = 'localhost'
 port = 3306
-db = 'mysql_test'
-user = 'mysql_test'
-password = 'mysql_test'
+db = test'
+user = 'root'
+password = '479085802'
 
 db_config = DMysqlConfig(host, db, user, password, port)
 
